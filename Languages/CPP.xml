@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Scintilla xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<keyword-classes>
+		<keyword-class name="cpp-primary-keywords">
+			and and_eq auto bitand bitor bool char class const double enum explicit export extern false float friend inline int long mutable namespace not not_eq or 
+			or_eq register short signed static struct template true typedef typename union unsigned using virtual void volatile wchar_t xor xor_eq
+		</keyword-class>
+		<keyword-class name="cpp-additional-keywords">
+			asm break catch case continue compl const_cast dynamic_cast do default delete else for goto if new operator public private protected return reinterpret_cast 
+			sizeof static_cast switch this throw try typeid while
+		</keyword-class>
+	</keyword-classes>
+	<languages>
+		<language name="cpp">
+			<lexer name="cpp" style-bits="7" />
+			<character-class><![CDATA[_abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789]]></character-class>
+			<line-comment><![CDATA[//]]></line-comment>
+			<comment-start><![CDATA[/*]]></comment-start>
+			<comment-end><![CDATA[*/]]></comment-end>
+			<file-extensions>cpp,h,c,cc,hpp</file-extensions>
+			<use-keywords>
+				<keyword key="1" class="cpp-additional-keywords" />
+				<keyword key="3" class="cpp-primary-keywords" />
+			</use-keywords>
+			<!-- COLORING_START -->
+			<editor-style caret-fore="0x958F6A" caretline-back="0x2A2A2A" selection-fore="0xffffff" selection-back="0xA63A62" margin-back="0x2A2A2A" margin-fore="0x3C3C3C" />
+			<use-styles>
+				<style name="default" fore="0xFFFFFF" back="0x2A2A2A" size="11" font="Consolas" />
+				<style name="comment" fore="0x8A8A8A" />
+				<style name="commentline" fore="0x8A8A8A" />
+				<style name="commentdoc" fore="0x8A8A8A" />
+				<style name="number" fore="0xAE83FF" />
+				<style name="word" fore="0xFF7DBE" />
+				<style name="string" fore="0xFFEE99" />
+				<style name="character" fore="0xFFEE99" />
+				<style name="uuid" />
+				<style name="preprocessor" fore="0xF81D6F" />
+				<style name="operator" fore="0xFFFFFF" />
+				<style name="identifier" fore="0xffffff" />
+				<style name="stringeol" />
+				<style name="verbatim" />
+				<style name="regex" fore="0xDB5B7E" />
+				<style name="commentlinedoc" fore="0x008000" />
+				<style name="word2" fore="0xA6E22E" />
+				<style name="word3" fore="0xF81D6F" />
+				<style name="word4" fore="0xFF8040" />
+				<style name="word5" fore="0x66D9EF" />
+				<style name="commentdockeyword" fore="0xC2AB7A" />
+				<style name="commentdockeyworderror" fore="0xC2AB7A" />
+				<style name="globalclass" fore="0x66D9EF" />
+				<style name="gdefault" fore="0xc0c0c0" />
+				<style name="linenumber" fore="0x666666" />
+				<style name="bracelight" fore="0xFFFFFF" back="0x555555" bold="true" />
+				<style name="bracebad" bold="true" />
+				<style name="controlchar" fore="0xffffff" />
+				<style name="indentguide" fore="0x525252" />
+				<style name="lastpredefined" fore="0x666666" />
+			</use-styles>			<!-- COLORING_END -->
+		</language>
+	</languages>
+</Scintilla>
