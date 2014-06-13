@@ -5,12 +5,12 @@
 			<lexer name="properties" style-bits="7" />
 			<file-extensions>properties,ini</file-extensions>
 			<!-- COLORING_START -->
-			<editor-style caret-fore="0x958F6A" caretline-back="0x2A2A2A" selection-fore="0xffffff" selection-back="0xA63A62" margin-back="0x2A2A2A" margin-fore="0x3C3C3C" />
+			<editor-style caret-fore="0x958F6A" caretline-back="0x2A2A2A" selection-fore="0xffffff" selection-back="0xA63A62" margin-back="0x2A2A2A" margin-fore="0x3C3C3C" print-margin="0x8A8A8A" />
 			<use-styles>
 				<style name="default" fore="0xFFFFFF" back="0x2A2A2A" size="11" font="Consolas" />
 				<style name="comment" fore="0x8A8A8A" />
 				<style name="section" fore="0x66D9EF" back="0x444444" eolfilled="true" />
-				<style name="assignment" fore="0xFFFFFF" />
+				<style name="assignment" fore="0x999999" />
 				<style name="defval" />
 				<style name="key" fore="0xF81D6F" />
 				<style name="gdefault" fore="0xc0c0c0" />
