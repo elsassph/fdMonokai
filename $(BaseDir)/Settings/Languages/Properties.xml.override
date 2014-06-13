@@ -1,5 +1,5 @@
 ﻿<!-- COLORING_START -->
-<editor-style caret-fore="0x958F6A" caretline-back="0x2A2A2A" selection-fore="0xffffff" selection-back="0xA63A62" margin-back="0x2A2A2A" margin-fore="0x3C3C3C" print-margin="0x8A8A8A" />
+<editor-style caret-fore="0x958F6A" caretline-back="0x2A2A2A" selection-fore="0xffffff" selection-back="0xA63A62" margin-back="0x2A2A2A" margin-fore="0x3C3C3C" print-margin="0x000000" marker-fore="0x2A2A2A" highlight-back="0xffffff" marker-back="0x555555" />
 <use-styles>
 	<style name="default" fore="0xFFFFFF" back="0x2A2A2A" size="11" font="Consolas" />
 	<style name="comment" fore="0x8A8A8A" />
@@ -7,7 +7,7 @@
 	<style name="assignment" fore="0x999999" />
 	<style name="defval" />
 	<style name="key" fore="0xF81D6F" />
-	<style name="gdefault" fore="0xc0c0c0" />
+	<style name="gdefault" fore="0x666666" />
 	<style name="linenumber" fore="0x666666" />
 	<style name="bracelight" fore="0xFFFFFF" back="0x555555" bold="true" />
 	<style name="bracebad" bold="true" />
