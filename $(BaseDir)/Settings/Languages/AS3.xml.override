@@ -16,7 +16,7 @@
 	<style name="stringeol" />
 	<style name="verbatim" />
 	<style name="regex" fore="0xDB5B7E" />
-	<style name="commentlinedoc" fore="0x008000" />
+	<style name="commentlinedoc" fore="0x8A8A8A" />
 	<style name="word2" fore="0xA6E22E" />
 	<style name="word3" fore="0xF81D6F" />
 	<style name="word4" fore="0xFF8040" />
