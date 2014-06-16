@@ -13,7 +13,7 @@ Theme based on the original [Monokai](http://www.monokai.nl/blog/2006/07/15/text
 
 ### Installation
 
-1. Download `MonokaiDarkSoda-theme.fdz` and double-click to install it with FlashDevelop 
+1. [Download](https://github.com/elsassph/fdMonokai/raw/master/dist/MonokaiDarkSoda-theme.fdz) `MonokaiDarkSoda-theme.fdz` and double-click to install it with FlashDevelop 
 (.FDZ files should be associated with FlashDevelop).
 
 2. Select `Tools > Select UI Theme...` in FlashDevelop and browse to the desired piece of theme 
