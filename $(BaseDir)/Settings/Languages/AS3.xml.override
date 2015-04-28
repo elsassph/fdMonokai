@@ -1,7 +1,7 @@
 ﻿<!-- COLORING_START -->
 <editor-style caret-fore="0x958F6A" caretline-back="0x2A2A2A" selection-fore="0xffffff" selection-back="0xA63A62" margin-back="0x2A2A2A" margin-fore="0x3C3C3C" print-margin="0x000000" marker-fore="0x2A2A2A" highlight-back="0xffffff" marker-back="0x555555" />
 <use-styles>
-	<style name="default" fore="0xF8F8F2" back="0x2A2A2A" size="10" font="Consolas,Courier New,monospace" />
+	<style name="default" fore="0xF0F0F0" back="0x2A2A2A" size="10" font="Consolas,Courier New,monospace" />
 	<style name="comment" fore="0x8A8A8A" />
 	<style name="commentline" fore="0x8A8A8A" />
 	<style name="commentdoc" fore="0x8A8A8A" />
@@ -12,7 +12,7 @@
 	<style name="uuid" />
 	<style name="preprocessor" fore="0xF81D6F" />
 	<style name="operator" fore="0xFFFFFF" />
-	<style name="identifier" fore="0xffffff" />
+	<style name="identifier" fore="0xF0F0F0" />
 	<style name="stringeol" />
 	<style name="verbatim" />
 	<style name="regex" fore="0xDB5B7E" />
