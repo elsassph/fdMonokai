@@ -15,7 +15,7 @@ copy temp.zip dist\$(BaseDir)\Settings\Themes\FullThemes\MonokaiDarkSoda.fdz
 del temp.zip
 
 :: syntax theme
-zip -9 -r temp.zip $(BaseDir)/Settings/Themes
+zip -9 -r temp.zip $(BaseDir)/Settings/Languages
 md dist\$(BaseDir)\Settings\Themes\SyntaxThemes
 copy temp.zip dist\$(BaseDir)\Settings\Themes\SyntaxThemes\MonokaiDarkSoda.fdz
 del temp.zip
